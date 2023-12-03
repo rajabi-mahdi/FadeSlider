@@ -1,7 +1,8 @@
 # FadeSlider
 
 FadeSlider is a JavaScript code that allows you to slide your website images in an optimal mode with the desired time.
-##preview https://rajabi-mahdi.github.io/FadeSlider
+
+## Preview https://rajabi-mahdi.github.io/FadeSlider.
 ## Usage
 
 1. Name your website images numerically from 1 to the desired number in order with the jpg format. For example: `1.jpg`, `2.jpg`, `Number.jpg`.
