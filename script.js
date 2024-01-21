@@ -15,13 +15,21 @@ $(function (){
             position: relative;
             overflow: hidden;
         }
+        @media screen and (max-width: 992px) {
+            ${SliderOptions.sliderContainer}{
+                width: 90%;
+                height: 250px;
+            }   
+        }
         ${SliderOptions.sliderContainer} img{
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-        }`;
+        }
+        
+        `;
     if ($('style').length == 0){
         $('head').prepend(style)
     }else{
