@@ -13,6 +13,7 @@ $(function (){
             margin: 50px auto;
             box-shadow: 2px 2px 10px #0711c9;
             position: relative;
+            overflow: hidden;
         }
         ${SliderOptions.sliderContainer} img{
             position: absolute;
