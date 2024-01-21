@@ -18,7 +18,8 @@ $(function (){
         @media screen and (max-width: 992px) {
             ${SliderOptions.sliderContainer}{
                 width: 90%;
-                height: 250px;
+                height: 200px;
+            
             }   
         }
         ${SliderOptions.sliderContainer} img{
